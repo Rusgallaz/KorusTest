@@ -39,6 +39,6 @@ mvn clean test -DsuiteXmlFile=api.xml
 ```
 mvn allure:report
 ```
-Распологается он здесь: **\target\allure-report**
+Располагается он здесь: **\target\allure-report**
 
 К упавшим веб тестам аттачатся скриншоты, а к api тестам аттачится содержимое http запросов
