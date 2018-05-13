@@ -32,6 +32,7 @@ public class BaseWebTest extends BaseSteps {
             throw new TestException("browser" + browser + " not found");
 
         webDriver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT, TimeUnit.SECONDS);
+        webDriver.manage().window().maximize();
     }
 
     @AfterMethod(alwaysRun = true)
