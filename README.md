@@ -6,12 +6,12 @@
 
 Для запуска web тестов используется команда
 ```
-mvn clean test -DsuiteXmlFile=web.xml -DbrowserWeb=Opera
+mvn clean test -DsuiteXmlFile=web.xml -DbrowserWeb=Firefox
 ```
 
 Доступны следующие браузеры:
 * Chrome
-* Opera
+* Opera(для запуска требуется указать еще один параметр -Dopera.binary="Путь до вашего launcher.exe оперы")
 * Firefox
 
 Для запуска api тестов используется команда
